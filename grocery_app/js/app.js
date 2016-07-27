@@ -14,12 +14,19 @@ $(document).ready(function() {
 		});
 		var liJquery = $(document.createElement("li")).text(text);
 		$(".things-i-need ul").append(li);
+		$("img").mousedown(function() { 
+		$(this).parent().remove(); 
+		});
 		return false;
+		
+	
+		
 	})
 	
-	$(".check-item")
 	
 });
+
+
 		
 	
 
